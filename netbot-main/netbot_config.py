@@ -1,6 +1,6 @@
 
 
-#Có thể fix lại code để tấn công luôn từ đây mà không cần cấu hình lại trên mỗi máy bot.
+#Có thể fix lại code để tấn công luôn từ máy chủ mà không cần cấu hình lại trên mỗi máy bot.
 ATTACK_TARGET_HOST = "172.20.10.3" # IP address of the machine to be attacked.
 ATTACK_TARGET_PORT = "80" # Port Number of the machine to be attacked.
 
