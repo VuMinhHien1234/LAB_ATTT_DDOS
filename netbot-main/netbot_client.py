@@ -75,7 +75,7 @@ def Main():
                 # Hiển thị menu tấn công chỉ khi nhận được lệnh LAUNCH
                 # Kiểu tấn công: sử dụng thư viện Hping3
                 print("Chọn kiểu tấn công:")
-                print("1. Hpping3 TCP Flood")
+                print("1. Hping3 TCP Flood")
                 print("2. Hping3 ICMP Flood")
                 print("3. Hping3 UDP Flood")
                 print("4. Hping3 SYN Flood")
